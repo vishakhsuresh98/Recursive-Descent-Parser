@@ -1,0 +1,10 @@
+x = x + .00
+avg_num= total_num     /n;
+result=(a=b)*c
+a=a+b
+a=a+b;
+a=a*b
+a=a%b
+;
+a;
+;;;

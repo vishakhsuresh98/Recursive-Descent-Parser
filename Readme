@@ -1,0 +1,28 @@
+RECURSIVE DESCENT PARSER
+************************
+
+This is a lex program to implement a Recursive Descent parser without backtracking parser for grammar G defines as follows
+ 
+G:  S -> id = E
+    E -> TE'
+    E'-> +TE' | -TE' | e
+    T -> FT'
+    T'-> *FT' | / FT' | e
+    F -> K^F  | K
+    K -> (E)  | id
+
+Then, verify the input statements against the parser for syntactic correctness.
+
+To run the lex program :
+************************
+
+1. Go the directory where the file is present.
+
+2. To build the lex program, type make into the terminal.
+
+3. The lex program has now been built and the executable file my_lex_parser is ready.
+
+4. To run the executable file, type ./my_lex_parser <input-file.txt>
+
+5. To remove the unnecessay files, type make remove into the terminal
+   The executable file my_lex_parser and lex.yy.c will be removed  
