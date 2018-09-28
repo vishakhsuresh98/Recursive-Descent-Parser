@@ -1,5 +1,5 @@
 # Recursive-Descent-Parser
-Lex program to implement a Recursive Descent parser without backtracking for grammar G defines as follows   
+Lex program to implement a Recursive Descent parser without backtracking for grammar G defined as follows   
 G:  S -> id = E     
     E -> TE'     
     E'-> +TE' | -TE' | epsilon     
