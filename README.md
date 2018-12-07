@@ -8,9 +8,8 @@ G:  S  -->  id = E
     F  -->  K^F  | K     
     K  -->  (E)  | id
 
-Getting Started
----------------
-About the input file:
+About the input file
+--------------------
 The input.txt file contains the strings which have to be verified against the parser.
    
 Running the tests
