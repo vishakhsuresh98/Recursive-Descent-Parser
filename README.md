@@ -1,12 +1,12 @@
 # Recursive-Descent-Parser
 This is a lex program to implement a recursive descent parser without backtracking for grammar G defined as follows:   
-G:  S -> id = E     
-    E -> TE'     
-    E'-> +TE' | -TE' | epsilon     
-    T -> FT'     
-    T'-> *FT' | / FT' | epsilon     
-    F -> K^F  | K     
-    K -> (E)  | id
+G:  S  -->  id = E     
+    E  -->  TE'     
+    E' -->  +TE' | -TE' | epsilon     
+    T  -->  FT'     
+    T' -->  *FT' | / FT' | epsilon     
+    F  -->  K^F  | K     
+    K  -->  (E)  | id
 
 Getting Started
 ---------------
